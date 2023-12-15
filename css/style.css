@@ -1,0 +1,468 @@
+html{
+    font-size: 62.5%;
+}
+*{
+     margin: 0;
+     padding: 0; 
+    /* box-sizing: border-box; */
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+font-family: 'Satisfy', cursive;
+box-sizing: border-box;
+overflow-x: hidden;
+}
+.nav_style{
+    background: #303030 ;
+}
+.navbar {
+    background: #303030 !important;
+   
+}
+ .navbar li a{
+    font-size: 2rem;
+    padding-left: 2rem !important; 
+    color: #ffffff !important;
+    position: relative;
+}
+.navbar li a::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    bottom: 50%;
+    width: 0%;
+    height: 3%;
+    background: springgreen;
+    transition: all 0.3s linear;
+}
+.navbar li a:hover::before{
+    width: 80%;
+}
+.navbar li a:hover{
+    color:springgreen !important;
+}
+.navbar input{
+    font-size: 2rem !important;
+}
+.navbar button{
+    font-size: 2rem !important;
+}
+.navbar-toggler{
+    background:springgreen; 
+}
+.nav-link.active{
+    color: springgreen !important;
+}
+.d-flex button {
+    background: springgreen !important;
+}
+
+
+/* banner section */
+.banner{
+    background: url(../img/banner_img.jpg)no-repeat #2e2e2e !important ;
+    
+    background-size: cover !important;
+    /* background-attachment: fixed; */
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    /* max-width: 100%; */
+    /* height: auto; */
+}
+.banner_col h1{
+    color:#ffffff;
+    margin-top: 30rem;
+    font-size: 10rem;
+}
+.banner_col{
+    margin-left: 10rem !important;
+}
+.banner_col p{
+    color: #ffffff;
+    font-size: 3rem;
+}
+.register_now{
+    background-color: springgreen;
+    width: 30rem;
+    font-weight: bold;
+    /* color: #303030; */
+    color: #ffffff;
+    padding: 1rem ;
+    font-size: 2rem;
+    border: none;
+    border: .1rem solid springgreen;
+    margin-bottom: 8rem;
+}
+.register_now:hover{
+    color: springgreen;
+    background-color: #ffffff;
+}
+.dance{
+    background: url(../img/dot2.jpg) springgreen;
+}
+.dance-head h2{
+    margin-top: 10rem;
+    font-size: 5rem;
+    text-align: center;
+    color: #ffffff;
+}
+.dance-head p{
+    font-size: 3rem;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+}
+/* .dance_pic1{
+    background: url(../img/dance_tour1.jpg) no-repeat;
+    margin-right: 2rem;
+} */
+.dance_pic{
+    background:  #2e2e2e;
+    
+    margin:0 1rem 10rem 1rem !important;
+}
+.dance_pic{
+    border-radius: grey;
+    text-align: center;
+    max-width: 38rem;
+    transition: all 0.1s linear;
+    position: relative;
+    box-shadow: 0 10px 30px 0;
+    /* margin:0 1rem; */
+}
+.dance_pic:hover{
+    background: springgreen !important;
+    /* color: springgreen !important; */
+    box-shadow: 0 0 4px 1px #2e2e2e !important;
+}
+.dance_pic h3:hover, .dance_pic p:hover{
+    /* color:springgreen !important ; */
+    cursor: pointer;
+}
+
+.dance-body h3{
+    color: #ffffff;
+    padding-top: 2rem;
+    font-size: 3rem;
+}
+.dance-body p{
+    color: #ffffff;
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+.price{
+    background: #303030;
+    color: #ffffff;
+    text-align: center;
+}
+.price-head h1{
+    padding-top: 10rem;
+    font-size: 3rem;
+    /* text-align: center; */
+}
+.price-head p{
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+    font-size: 2rem;
+    /* text-align: center; */
+}
+
+.price-col{
+    background: springgreen;
+    /* margin-left: 1rem !important; */
+    border-radius: #141313 !important;
+    transition: all 0.1s linear;
+    position: relative;
+    margin-bottom: 12rem;
+}
+.price-col:hover{
+
+    background: #2e2e2e;
+    box-shadow: 0 0 4px 1px palegreen!important; 
+}
+.price-col:hover button{
+    background: springgreen;
+}
+.price-body h2{
+    font-size: 3rem;
+    padding-bottom:2rem ;
+    /* text-align: center; */
+}
+.price-col{
+text-align: center;
+max-width: 35rem;
+}
+.price-col img{
+    padding: 5rem 0;
+}
+.price-col p{
+    font-size: 2rem;
+    /* text-align: center; */
+}
+.price-col button{
+    font-size: 2rem;
+    padding: 1rem 10rem;
+    /* width: 30rem; */
+   
+    margin: 2rem 0;
+    border: none;
+    background: #2e2e2e;
+    color: #ffffff;
+}
+.amazing{
+    background: springgreen;
+    text-align: center;
+}
+.amazing h2{
+    
+    /* padding-left: 8rem; */
+    font-size: 6rem;
+    color: #ffffff;
+    padding-top: 30rem;
+}
+.amazing p{
+    /* text-align: center; */
+    font-size: 3rem;
+    color: #ffffff;
+    padding-top: 5rem;
+}
+.amazing button{
+    background: #2e2e2e;
+    color:#ffffff;
+    /* width: 30rem; */
+    margin: 4rem 8rem;
+    padding: 1rem 10rem;
+    font-size: 2.5rem;
+    border: none;
+}
+.amazing button:hover{
+    border-bottom: 2px solid #2e2e2e;
+    background: #515151;
+}
+
+/* statics */
+.statics{
+    background: #303030;
+}
+.statics_head h2{
+    padding-top: 10rem;
+    color: #ffffff;
+    text-align: center;
+    font-size: 3.5rem;
+}
+.statics_head p{
+    padding-top: 2rem;
+    color: #ffffff;
+    text-align: center;
+    font-size: 2.2rem;
+}
+.statics_body {
+    padding: 10rem 0;
+}
+.icon{
+    color:#ffffff;
+    text-align: center;
+    font-size: 4rem !important;
+    font-weight: bold;
+}
+.statics_body p{
+    color: #ffffff;
+    text-align: center;
+    font-size: 2rem;
+}
+/* fixed img */
+.fixed_img{
+    background:linear-gradient(rgba(74, 75, 74,0.5),rgba(74, 75, 74,0.5)), url(../img/fixed_img.jpg) ;
+background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+}
+.fixed_img p{
+    color: #ffffff;
+    font-size: 4rem;
+    padding-top: 25rem;
+    /* text-align: center; */
+    word-spacing: 1rem;
+    /* background-color: rgb(74, 75, 74); */
+}
+.fixed_img h2{
+    /* text-align: center; */
+    color: #ffffff;
+    padding-top: 5rem ;
+    padding-bottom: 25rem;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.subscribe{
+    background: springgreen;
+    text-align: center;
+}
+.subscribe h1{
+    padding: 8rem 0 4rem 0;
+    font-size: 4rem;
+    font-weight: bold;
+    color: #ffffff;
+    /* text-align: center; */
+}
+.subscribe p{
+
+    font-size: 3rem;
+    color: #ffffff;
+    /* text-align: center; */
+}
+.subscribe form{
+    margin-top: 2rem;
+    /* margin-left: 38rem; */
+    font-size: 2rem;
+    padding-bottom: 10rem;
+}
+.subscribe input{
+    text-transform: uppercase;
+    /* text-align: left !important; */
+    padding: .5rem 20rem;
+    /* border: none !important; */
+    border: 2px solid #595959;
+}
+.subscribe input:hover{
+    border: 2px solid #595959;
+}
+.subscribe button{
+    padding: .5rem;
+    border: none;
+    background: #303030;
+    border: 2px solid #595959;
+    color: #ffffff;
+}
+
+/* footer  */
+
+footer{
+    padding: 2rem 0;
+   
+    background: #303030;
+}
+.footer-head h2{
+    padding-left: 4rem;
+    padding-top: 1rem;
+    font-size: 3rem;
+    color: #ffffff;
+    font-weight: bold;
+}
+.footer-head p{
+    padding-left: 4rem;
+    padding-top: 1rem;
+    font-size: 1.8rem;
+    color: #ffffff;
+}
+.footer-head ul{
+    padding-left: 2rem;
+   padding-top: 1rem;
+}
+.footer-head ul li{
+    list-style: none;
+    font-size: 3rem;
+    display: inline-block;
+    padding-left: 2rem;
+    color: #ffffff;
+}
+.footer-body{
+    text-align: center;
+}
+.footer-body h3{
+    padding: 1rem 0;
+    font-size: 2rem;
+    color: #ffffff;
+    font-weight: bold;
+}
+.footer-body p{
+    font-size: 1.8rem;
+    color: #ffffff; 
+}
+@media(max-width:1025px){
+    .dance_pic{
+        max-width: 25rem;
+    }
+    .amazing h2{
+        padding-top: 10rem;
+    }
+    .price-col button{
+        padding: .5rem 5rem;
+    }
+    .dance_pic{
+        max-width: 25rem;
+        
+    }
+}
+
+
+@media(max-width:998px){
+    html{
+        font-size: 55%;
+    }
+    .navbar-nav{
+        margin-top: 2rem !important;
+        text-align: center;
+    }
+    .navbar li a:hover::before{
+        /* width: 15%; */
+        display: none;
+    }
+    .banner_col{
+        margin-left:5rem !important;
+    }
+    .dance_pic{
+        max-width: 90rem;
+        margin: 0 0 10rem 0;
+    }
+    .price-col{
+        max-width: 90rem;
+        
+    }
+    .amazing h2{
+        font-size: 3rem;
+    }
+    .amazing button{
+        padding: .5rem 5rem;
+    }
+    .amazing p{
+        font-size: 2.5rem;
+    }
+   
+}
+
+@media(max-width:576px){
+    html{
+        font-size: 48%;
+    }
+    .subscribe input{
+        padding: .5rem 5rem;
+    }
+    .banner_col{
+        margin-left: 1rem !important;
+    }
+    .dance_pic{
+        margin-bottom: 3rem;
+        max-width: 90rem !important;
+    }
+    .price-col{
+        margin-bottom: 3rem;
+    }
+    .amazing h2{
+        padding-top: 5rem;
+    }
+    .amazing button{
+        padding:  .5rem 5rem;
+    }
+    .fixed_img p{
+        font-size: 2.5rem;
+    }
+    
+}
